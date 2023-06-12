@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Product A",
+    "price": 19.99,
+    "description": "This is Product A. It is a high-quality item suitable for various purposes.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400/png",
+    "slug": "product-a"
+  },
+  {
+    "id": "2",
+    "name": "Product B",
+    "price": 12.49,
+    "description": "Product B is a compact and portable device that provides excellent functionality.",
+    "category": "Appliances",
+    "image_url": "https://placehold.co/600x400/png",
+    "slug": "product-a"
+  },
+  {
+    "id": "3",
+    "name": "Product C",
+    "price": 7.99,
+    "description": "Enhance your home decor with Product C. It offers an elegant and modern design.",
+    "category": "Home & Kitchen",
+    "image_url": "https://placehold.co/600x400/png",
+    "slug": "product-a"
+  }
+]
