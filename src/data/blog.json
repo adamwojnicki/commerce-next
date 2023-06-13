@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Markdown",
+    "author": "John Doe",
+    "image_url": "https://placehold.co/600x400/png",
+    "date": "2023-06-01",
+    "slug": "intro-to-markdown",
+    "excerpt": "Markdown is a lightweight markup language that allows you to write plain text using easy-to-read and easy-to-write syntax.",
+    "content": "# Introduction to Markdown\n\nMarkdown is a lightweight markup language that allows you to write plain text using easy-to-read and easy-to-write syntax. It is widely used in various applications, including writing documentation, creating web content, and even formatting messages in online forums.\n\n## Benefits of Markdown\n\n- Easy to learn\n- Simple syntax\n- Platform-independent\n- Readable even in plain text format\n\nMarkdown provides a convenient way to format text without the need for complex HTML or formatting tools.\n\n### Example\n\n```markdown\n# Heading 1\n## Heading 2\n### Heading 3\n\n- List item 1\n- List item 2\n- List item 3\n\n**Bold text**\n*Italic text*\n\n[Link to example.com](https://example.com)\n```\n\nNow that you have an understanding of Markdown basics, you can start using it to format your content more effectively!\n"
+  },
+  {
+    "id": "2",
+    "title": "Getting Started with JSON",
+    "author": "Jane Smith",
+    "image_url": "https://placehold.co/600x400/png",
+    "date": "2023-06-05",
+    "slug": "getting-started-with-json",
+    "excerpt": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write.",
+    "content": "# Getting Started with JSON\n\nJSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write. It is widely used for transmitting data between a server and a web application as an alternative to XML.\n\n## JSON Syntax\n\nJSON data is represented as key-value pairs. Here's an example:\n\n```json\n{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"email\": \"johndoe@example.com\"\n}\n```\n\n## Benefits of JSON\n\n- Easy to understand\n- Supported by most programming languages\n- Compact and lightweight\n- Versatile\n\nJSON provides a standardized format for data exchange, making it a popular choice in modern web development.\n"
+  }
+]
