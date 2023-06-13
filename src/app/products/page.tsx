@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import products from "@/data/products.json";
+import ProductCard from "@/components/ProductCard";
 
 const page = () => {
   return (
@@ -13,24 +14,7 @@ const page = () => {
       </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {products.map((p) => (
-          <div key={p.id} className="card p-3">
-            <Image
-              src={p.image_url}
-              alt={p.name}
-              width={800}
-              height={400}
-              className="w-full mb-2"
-            />
-            <h3 className="text-xl font-semibold mb-2">{p.name}</h3>
-            <p className="mb-2">{p.description}</p>
-            <p className="mb-2">{p.price}</p>
-            <Link
-              className="rounded-full px-6 py-1 bg-black text-white"
-              href={`/products/${p.slug}`}
-            >
-              Learn more
-            </Link>
-          </div>
+          <ProductCard product={p} key={p.id} />
         ))}
       </div>
     </main>

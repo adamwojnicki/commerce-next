@@ -15,7 +15,7 @@
     "description": "Product B is a compact and portable device that provides excellent functionality.",
     "category": "Appliances",
     "image_url": "https://placehold.co/600x400/png",
-    "slug": "product-a"
+    "slug": "product-b"
   },
   {
     "id": "3",
@@ -24,6 +24,6 @@
     "description": "Enhance your home decor with Product C. It offers an elegant and modern design.",
     "category": "Home & Kitchen",
     "image_url": "https://placehold.co/600x400/png",
-    "slug": "product-a"
+    "slug": "product-c"
   }
 ]
